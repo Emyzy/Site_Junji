@@ -1,0 +1,19 @@
+#rodape {
+    background: linear-gradient(180deg,rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.493), rgba(14, 4, 4, 0.986));
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-top: auto;
+    flex: auto;
+    font-size: 12px;
+}
+#rodape a{
+    color: white;
+    text-decoration: none;
+}
+#rodape a:hover{
+    text-decoration: underline;
+    color: #8a0505;
+    transform: scale(1.05);
+    transition: .2s;
+}

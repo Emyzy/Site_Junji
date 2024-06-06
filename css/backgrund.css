@@ -1,0 +1,52 @@
+#video_fundo {
+   position: fixed;
+   inset: 0;
+   width: 100%;
+   height: 100vh;
+   z-index: -1;
+}
+
+#video_fundo video {
+   width: 100%;
+   height: 100vh;
+   object-fit: cover;
+}
+
+#video_fundo::after {
+   content: ' ';
+   width: inherit;
+   height: inherit;
+   position: fixed;
+   inset: 0;
+   background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
+}
+
+body {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+#pag_tomie {
+   background-image: url(../images/backgrund/tomie_fundo.jpg);
+}
+
+#pagina_02 {
+   background-image: url(../images/backgrund/fundo_2.jpg);
+}
+
+#pag_uzumaki {
+   background-image: url(../images/backgrund/uzumaki_fundo.jpg);
+}
+
+#pag_fragmentos {
+   background-image: url(../images/backgrund/horror_fundo.jpg);
+}
+
+#pag_frank {
+   background-image: url(../images/backgrund/frank_fundo.jpg);
+}
+
+#pag_gyo {
+   background-image: url(../images/backgrund/gyo_fundo.jpg);
+}

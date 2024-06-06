@@ -1,0 +1,33 @@
+
+.bio_inicio{
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.bio_inicio p{
+    margin: 40px 0;
+}
+#biografia_video{
+    justify-content: center;
+    display: flex;
+    margin-top: 100px;
+     margin-bottom: 100px;
+}
+.bio_inicio h1{
+color: rgb(255, 153, 0);
+font-size: 42px;
+line-height: 40px;
+}
+#titulo-video_bio {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 40px;
+    color: rgb(255, 153, 0);
+    margin-top: 140px;
+    margin-bottom: 100px;
+}
+.bio_inicio p{
+    color: #fff5f5; ;
+}

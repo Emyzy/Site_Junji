@@ -1,0 +1,37 @@
+.conteudo {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+.conteudo img {
+    width: 250px;
+    border-radius: 15px;
+}
+.conteudo h1 {
+    font-size: 42px;
+    line-height: 40px;
+}
+.conteudo p {
+    margin: 40px 0;
+}
+.title-gyo {
+    color: #dfd767;
+}
+.title-tomie{
+    color: #ac22be;
+}
+.title-uzumaki {
+    color: #f76f00;
+}
+.title-frank {
+    color: #228dbe;
+}
+.title-horror {
+    color: #ff3300;
+}
